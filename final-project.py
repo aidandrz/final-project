@@ -7,6 +7,18 @@
 # a word of their choice to make their own mini story.
 
 
+def madlib1(str):
+    print('Roses are ' + adj1 + '.')
+    print(n1 + 'are blue.')
+    print(n2 + ' are ' + adj2)
+    print('And so are you!')
+
+def madlib2(str):
+    print('The ' + adj1 + n1 + 'fox jumped over a fence.')
+    print('Then he saw a ' + adj2 + n2 + ' coming towards him.')
+    print('He then decided to ' + adj3)
+
+
 question = int(input('Hello, would you like to do madlib 1 or 2? '))
 try:
     if question == (1):
@@ -15,20 +27,10 @@ try:
     if question == (2):
         madlib2()
 
+
 except ValueError:
     print('Please enter 1 or 2')
 
-
-def madlib(1):
-    print('Roses are ' + adj1 + '.')
-    print(n1 + 'are blue.')
-    print(n2 + ' are ' + adj2)
-    print('And so are you!')
-
-def madlib(2):
-    print('The ' + adj1 + n1 + 'fox jumped over a fence.')
-    print('Then he saw a ' + adj2 + n2 + ' coming towards him.')
-    print('He then decided to ' + adj3)
 
 adj1 = input('Tell me an adjective and press enter: ')
 n1 = input('Tell me a noun and press enter: ')
