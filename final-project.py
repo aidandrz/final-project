@@ -12,6 +12,7 @@ def madlib1(str: object) -> object:
     print(n1 + 'are blue.')
     print(n2 + ' are ' + adj2)
     print('And so are you!')
+    return madlib1()
 
 def madlib2(str):
     print('The ' + adj1 + n1 + 'fox jumped over a fence.')
