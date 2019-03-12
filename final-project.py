@@ -37,3 +37,5 @@ n1 = input('Tell me a noun and press enter: ')
 n2 = input('Tell me another noun and press enter: ')
 adj2 = input('Tell me another adjective and press enter: ')
 adj3 = input('Tell me another adjective and press enter: ')
+
+print(adj1)
