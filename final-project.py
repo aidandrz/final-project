@@ -9,6 +9,12 @@
 # the initial statement printed for the user
 question = int(input('Hello, would you like to do madlib 1 or 2? '))
 
+# The if statements for if the user doesn't enter 1 or 2
+if question > 2:
+    print("Enter 1 or 2")
+
+if question < 0:
+    print('Enter 1 or 2')
 
 def madlib1(str: object) -> object:
     print('Roses are ' + adj1 + '.')
@@ -46,6 +52,9 @@ try:
 
     if question == (2):
         madlib2(str)
+
+    else:
+        print('Enter 1 or 2')
 
 
 # what happens if you don't put 1 or 2
