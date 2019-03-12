@@ -7,7 +7,7 @@
 # a word of their choice to make their own mini story.
 
 
-def madlib1(str):
+def madlib1(str: object) -> object:
     print('Roses are ' + adj1 + '.')
     print(n1 + 'are blue.')
     print(n2 + ' are ' + adj2)
@@ -22,10 +22,10 @@ def madlib2(str):
 question = int(input('Hello, would you like to do madlib 1 or 2? '))
 try:
     if question == (1):
-        madlib1()
+        madlib1(str)
 
     if question == (2):
-        madlib2()
+        madlib2(str)
 
 
 except ValueError:
