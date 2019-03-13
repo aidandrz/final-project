@@ -9,12 +9,13 @@
 # the initial statement printed for the user
 question = int(input('Hello, would you like to do madlib 1 or 2? '))
 
-# The if statements for if the user doesn't enter 1 or 2
-if question > 2:
-    print("Enter 1 or 2")
-
-if question < 0:
-    print('Enter 1 or 2')
+# If the user doesn't enter 1 or 2, the while loop will continue to prompt them
+# with the same question at the beginning so the program will work as it usually
+# would once the correct input is entered
+while question != 1 or 2:
+    print('Please enter either 1 or 2')
+    question = int(input('Hello, would you like to do madlib 1 or 2? '))
+    
 
 def madlib1(str: object) -> object:
     print('Roses are ' + adj1 + '.')
