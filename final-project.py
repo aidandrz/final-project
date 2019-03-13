@@ -12,9 +12,11 @@ question = int(input('Hello, would you like to do madlib 1 or 2? '))
 # The if statements for if the user doesn't enter 1 or 2
 if question > 2:
     print("Enter 1 or 2")
+    question = int(input('Hello, would you like to do madlib 1 or 2? '))
 
 if question < 0:
     print('Enter 1 or 2')
+    question = int(input('Hello, would you like to do madlib 1 or 2? '))
 
 def madlib1(str: object) -> object:
     print('Roses are ' + adj1 + '.')
@@ -35,7 +37,7 @@ adj3 = input(str('Tell me another adjective and press enter: '))
 try:
     def madlib1(str):
         print('Roses are ' + adj1 + '.')
-        print(n1 + 'are blue.')
+        print(n1 + ' are blue.')
         print(n2 + ' are ' + adj2)
         print('And so are you!')
         return object
@@ -60,5 +62,3 @@ try:
 # what happens if you don't put 1 or 2
 except ValueError:
     print('Please enter 1 or 2')
-
-
