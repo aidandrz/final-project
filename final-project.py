@@ -6,6 +6,8 @@
 Mad libs generator
 There will be multiple sentences with different areas the user can input
 a word of their choice to make their own mini story.
+Dylan helped me to figure out some of the issues in my code when those
+showed up.
 '''
 
 while True:
